@@ -1,0 +1,99 @@
+.Header {
+  height: auto;
+  padding: 10px;
+  border-bottom: 2px solid rgb(157, 121, 255);
+}
+
+.Header h1 {
+  margin: 0 auto;
+}
+
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.NavHeader {
+  display: flex;
+  flex-flow: row;
+}
+
+.Header a {
+  color: white;
+  text-decoration: none;
+}
+
+.HeaderTaglineWide {
+  opacity: 0.35;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+.HeaderTaglineNarrow {
+  opacity: 0.35;
+  display: block;
+  text-align: center;
+  display: none;
+  margin-top: 10px;
+}
+
+.HeaderNotLoggedIn {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.HeaderLoggedInContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1em;
+}
+
+.HeaderNotLoggedIn a:last-child {
+  background: rgb(157, 121, 255);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.HeaderLogoutButton {
+  border: 1px solid rgb(157, 121, 255);
+  background-color: transparent;
+  color: white;
+  font-size: 1em;
+  margin-left: 15px;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 450px) {
+  .Header {
+    align-items: baseline;
+  }
+
+  .Header h1 {
+    font-size: 22pt;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .HeaderTaglineWide {
+    display: none;
+  }
+
+  .Header h1 {
+    font-size: 22pt;
+    margin: auto 0;
+  }
+
+  .HeaderTaglineNarrow {
+    display: inherit;
+  }
+}
