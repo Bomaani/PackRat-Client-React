@@ -6,13 +6,13 @@ PackRat app project completed as a single solo project by Brock Boutwell [EI34]
 
 Html, CSS, Jquery, Javascript, Ajax, Express, React, Node, Postgresql
 
-# link to WireFrames 
+## link to WireFrames 
 * https://thinkful-ei-gecko.github.io/Brock-Capstone-1-Wireframes/Wireframes/landingPage.html
 
-# link to Live App 
+## link to Live Client App 
 * https://packrat-app.brockboutwell.now.sh
 
-# link to Github Repo 
+## link to Client Github Repo 
 * https://github.com/Bomaani/PackRat-Client-React
 
 # User Stories

@@ -1,0 +1,22 @@
+.EdititemForm {
+  background: rgb(37, 37, 37);
+  width: 40%;
+  border-radius: 6px;
+  margin: 20px auto;
+  padding: 30px;
+  border: rgb(157, 121, 255) 4px solid;
+  text-align: center;
+}
+
+.SaveItemButton {
+  font-size: 1em;
+  background: rgb(157, 121, 255);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  border: none;
+}
+
+.EditItemTitle {
+  margin-bottom: 20px;
+}

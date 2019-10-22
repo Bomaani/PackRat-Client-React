@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import config from "../../config";
 import TokenService from "../../services/token-service";
+import './UpdateItem.css';
 
 export default class UpdateItem extends Component {
+  constructor(props) {
+    super(props);
+    this.handleUpdateSubmit = this.handleUpdateSubmit.bind(this);
+  }
+  
   state = {
     item: "",
     title: {
@@ -52,8 +58,7 @@ export default class UpdateItem extends Component {
     };
 
     const item_id = this.props.location.state.item.id;
-    //console.log(item_id);
-    //console.log(newUpdatedItem);
+    
     fetch(`${config.API_ENDPOINT}/items/${item_id}`, {
       method: "PATCH",
       body: JSON.stringify(newUpdatedItem),
@@ -83,7 +88,7 @@ export default class UpdateItem extends Component {
     return (
       <section className="EdititemForm">
         <form>
-          <h2>Edit Item</h2>
+          <h2 className="EditItemTitle">Edit Item</h2>
           <label htmlFor="edititemtitle" className="EditItemLabel">
             Item Name
           </label>
@@ -136,7 +141,7 @@ export default class UpdateItem extends Component {
           <button
             type="submit"
             onClick={this.handleUpdateSubmit}
-            className="button"
+            className="SaveItemButton"
           >
             Save Item
           </button>

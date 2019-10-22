@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 import { countItemsForCollection } from "../../items-helpers";
 import config from "../../config";
 import TokenService from "../../services/token-service";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import { fa-folder-plus } from '@fortawesome/free-solid-svg-icons';
 import "./CollectionList.css";
 
 export default class CollectionList extends React.Component {
@@ -57,7 +55,6 @@ export default class CollectionList extends React.Component {
             type="button"
             className="itemListNavAddCollectionButton"
           >
-            <FontAwesomeIcon icon="fa-folder-plus" />
             Create New Collection
           </Link>
         </div>

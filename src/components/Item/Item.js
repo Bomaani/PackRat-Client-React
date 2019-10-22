@@ -49,7 +49,7 @@ export default class Item extends React.Component {
     const { name, id } = this.props;
     return (
       <div className="Item">
-        <h2 className="ItemTitle">
+        <h2 className="ItemTitleLink">
           <Link to={`/item/${id}`}>{name}</Link>
         </h2>
         {this.state.deleteClicked && 

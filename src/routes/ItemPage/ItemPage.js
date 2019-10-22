@@ -3,20 +3,23 @@ import config from "../../config";
 import Img from "react-image";
 import { Link } from "react-router-dom";
 import TokenService from "../../services/token-service";
+import './ItemPage.css';
 
 export default class ItemPage extends React.Component {
-  static defaultProps = {};
+  static defaultProps = {
+    match: {}
+  };
 
   state = {
     item: {}
   };
 
   componentDidMount() {
-    console.log(this.props.match.params);
-
+    console.log(this.props.match);
+    const itemId = this.props.match.params.item_id;
     Promise.all([
       fetch(
-        `${config.API_ENDPOINT}/items/item/${this.props.match.params.item_id}`,
+        `${config.API_ENDPOINT}/items/item/${itemId}`,
         {
           headers: {
             "content-type": "application/json",
@@ -40,19 +43,17 @@ export default class ItemPage extends React.Component {
   render() {
     //console.log(this.props);
     return (
-      <div className="Item">
+      <div className="ItemContainer">
         <h2 className="ItemTitle">{this.state.item.title}</h2>
         <Img
           className="ItemImage"
           src={this.state.item.image_url}
-          height="100px"
-          width="auto"
         />
         <p className="ItemInfo">
-          Info: {this.state.item.info}
+          <span className="Info">Info:</span>  {this.state.item.info}
         </p>
         <p className="ItemYearReleased">
-          Year Released: {this.state.item.year_released}
+        <span className="YearReleased">Year Released:</span> {this.state.item.year_released}
         </p>
         <Link
           to={{

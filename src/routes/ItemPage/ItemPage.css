@@ -1,0 +1,39 @@
+.ItemContainer {
+  background: rgb(37, 37, 37);
+  width: 40%;
+  border-radius: 6px;
+  margin: 20px auto;
+  padding: 30px;
+  border: rgb(157, 121, 255) 4px solid;
+  text-align: center;
+}
+
+.EditItemButton {
+  background: rgb(157, 121, 255);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin: 0 auto;
+  font-size: 1em;
+  -webkit-appearance: inherit;
+}
+
+.ItemInfo, 
+.ItemYearReleased {
+    text-align: left;
+}
+.Info, 
+.YearReleased {
+  border-bottom: 2px solid rgb(157, 121, 255);
+  font-size: 1.3em;
+}
+
+.ItemTitle {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.ItemImage {
+    height: 200px;
+    width: auto;
+}
