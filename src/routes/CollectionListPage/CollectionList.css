@@ -44,6 +44,7 @@ li {
   border-radius: 15px;
   margin: 0 auto;
   font-size: 1em;
+  -webkit-appearance: inherit;
 }
 
 a {

@@ -5,7 +5,7 @@ textarea {
   padding: 15px;
   margin: 5px 5px 22px 0;
   display: inline-block;
-  border: 1px solid black;
+  border: 1px solid rgb(157, 121, 255);
   background: #f1f1f1;
   font-size: 1em;
 }
@@ -16,7 +16,7 @@ textarea {
   border-radius: 6px;
   margin: 20px auto;
   padding: 30px;
-  border: #a8a8a8 4px solid;
+  border: rgb(157, 121, 255) 4px solid;
   text-align: center;
 }
 
