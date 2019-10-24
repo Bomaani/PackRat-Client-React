@@ -4,10 +4,7 @@ import TokenService from "../../services/token-service";
 import './UpdateItem.css';
 
 export default class UpdateItem extends Component {
-  constructor(props) {
-    super(props);
-    this.handleUpdateSubmit = this.handleUpdateSubmit.bind(this);
-  }
+  
   
   state = {
     item: "",

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./LandingPage.css";
+import Image from '../../images/favicon.png';
 
 
 export default class LandingPage extends Component {
@@ -9,7 +10,7 @@ export default class LandingPage extends Component {
   render() {
     return (
         <div className="LandingPageContainer">
-            <img src={process.env.PUBLIC_URL + '/favicon.png'} alt="logo"/>
+            <img src={Image} alt="logo"/>
             <h1>
               Welcome to PackRat!
             </h1>< br/>
