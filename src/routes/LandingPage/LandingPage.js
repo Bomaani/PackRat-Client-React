@@ -22,6 +22,7 @@ export default class LandingPage extends Component {
             <p>
               <Link className="LandingPageLink" to="/login">Login</Link> or <Link className="LandingPageLink" to="/register">Register</Link> to Start collecting now!
             </p>
+            <p className="CreatedBy">|| PackRat App Created by <span className="Brockb">Brock Boutwell</span> ||</p>
         </div>
       
     );

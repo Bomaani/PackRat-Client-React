@@ -1,24 +1,35 @@
 .LandingPageContainer {
-    text-align: center;
+  text-align: center;
 }
 
 .LandingPageLink {
-    border: 1px solid #9d79ff;
-    border-radius: 5px;
-    padding: 5px;
-    color: white;
+  border: 1px solid #9d79ff;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
 }
 
 .landingPageInto {
   background: rgb(37, 37, 37);
   width: 40%;
   border-radius: 6px;
-  margin: 20px auto;
-  padding: 30px;
-  border: rgb(157, 121, 255) 4px solid;
+  margin: 0 auto;
+  padding: 15px;
+  border: rgb(157, 121, 255) 2px solid;
   text-align: center;
 }
 
+.CreatedBy {
+  margin-top: 10rem;
+  width: auto;
+  color: rgb(150, 150, 150);
+}
+
+.Brockb {
+  border-bottom: 1px solid rgb(157, 121, 255);
+  color: white;
+}
+
 .LandingPageLink a:visited {
-    color: white;
+  color: white;
 }
