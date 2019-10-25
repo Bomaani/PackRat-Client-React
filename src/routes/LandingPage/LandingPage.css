@@ -9,6 +9,16 @@
     color: white;
 }
 
+.landingPageInto {
+  background: rgb(37, 37, 37);
+  width: 40%;
+  border-radius: 6px;
+  margin: 20px auto;
+  padding: 30px;
+  border: rgb(157, 121, 255) 4px solid;
+  text-align: center;
+}
+
 .LandingPageLink a:visited {
     color: white;
 }

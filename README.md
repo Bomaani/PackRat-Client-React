@@ -15,6 +15,12 @@ Html, CSS, Javascript, Ajax, Express, React, Node, Postgresql
 ## link to Client Github Repo 
 * https://github.com/Bomaani/PackRat-Client-React
 
+
+### Example User with poulated account data
+
+* Username: dunder
+* Password: password
+
 ![Packrat Landing Page](/images/screenshot1.png "PackRat")
 
 
