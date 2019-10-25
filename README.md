@@ -4,7 +4,7 @@ PackRat app project completed as a single solo project by Brock Boutwell [EI34]
 
 ## Technologies
 
-Html, CSS, Jquery, Javascript, Ajax, Express, React, Node, Postgresql
+Html, CSS, Javascript, Ajax, Express, React, Node, Postgresql
 
 ## link to WireFrames 
 * https://thinkful-ei-gecko.github.io/Brock-Capstone-1-Wireframes/Wireframes/landingPage.html
