@@ -10,11 +10,12 @@
 
 .ItemDeleteButton {
   background: transparent;
+  cursor: pointer;
   color: white;
   border-radius: 15px;
   border: 1px solid rgb(212, 0, 0);
   margin: 10px auto;
-  font-size: .3em;
+  font-size: 1em;
   width: auto;
   text-align: end;
 }

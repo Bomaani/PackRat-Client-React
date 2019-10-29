@@ -9,7 +9,7 @@ body {
 .LoginForm,
 .RegistrationForm {
   background: rgb(37, 37, 37);
-  width: 40%;
+  width: 97%;
   border-radius: 6px;
   margin: 20px auto;
   padding: 30px;
@@ -31,6 +31,7 @@ input[type="password"] {
 
 .LoginButton {
   background: rgb(157, 121, 255);
+  cursor: pointer;
   color: white;
   padding: 5px 15px;
   border-radius: 15px;
@@ -45,9 +46,9 @@ h2 {
   padding-top: 10px;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (min-width: 765px) {
   .LoginForm,
   .RegistrationForm {
-    width: 97%;
+    width: 40%;
   }
 }

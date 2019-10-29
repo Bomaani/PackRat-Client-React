@@ -81,7 +81,6 @@ export default class UpdateItem extends Component {
   };
 
   render() {
-    //console.log(this.props.location.state.item.title);
     return (
       <section className="EdititemForm">
         <form>

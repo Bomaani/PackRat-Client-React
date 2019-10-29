@@ -1,6 +1,6 @@
 .ItemContainer {
   background: rgb(37, 37, 37);
-  width: 40%;
+  width: 97%;
   border-radius: 6px;
   margin: 20px auto;
   padding: 30px;
@@ -18,22 +18,28 @@
   -webkit-appearance: inherit;
 }
 
-.ItemInfo, 
+.ItemInfo,
 .ItemYearReleased {
-    text-align: left;
+  text-align: left;
 }
-.Info, 
+.Info,
 .YearReleased {
   border-bottom: 2px solid rgb(157, 121, 255);
   font-size: 1.3em;
 }
 
 .ItemTitle {
-    font-size: 2em;
-    margin-bottom: 20px;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
 .ItemImage {
-    height: 200px;
-    width: auto;
+  height: auto;
+  width: 80%;
+}
+
+@media screen and (min-width: 765px) {
+  .ItemContainer {
+    width: 40%;
+  }
 }

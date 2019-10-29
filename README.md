@@ -16,7 +16,7 @@ Html, CSS, Javascript, Ajax, Express, React, Node, Postgresql
 * https://github.com/Bomaani/PackRat-Client-React
 
 
-### Example User with poulated account data
+### Example User with populated account data
 
 * Username: dunder
 * Password: password

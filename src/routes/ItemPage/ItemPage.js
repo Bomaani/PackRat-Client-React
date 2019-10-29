@@ -15,7 +15,6 @@ export default class ItemPage extends React.Component {
   };
 
   componentDidMount() {
-    console.log(this.props.match);
     const itemId = this.props.match.params.item_id;
     Promise.all([
       fetch(
@@ -41,7 +40,6 @@ export default class ItemPage extends React.Component {
   }
 
   render() {
-    //console.log(this.props);
     return (
       <div className="ItemContainer">
         <h2 className="ItemTitle">{this.state.item.title}</h2>

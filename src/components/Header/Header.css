@@ -6,6 +6,8 @@
 
 .Header h1 {
   margin: 0 auto;
+  font-size: 22px;
+  margin-top: 12px;
 }
 
 .HeaderContainer {
@@ -26,7 +28,8 @@
 .HeaderTaglineWide {
   opacity: 0.35;
   margin-left: 10px;
-  margin-top: 12px;
+  margin-top: 18px;
+  display: none;
 }
 
 .HeaderTaglineNarrow {
@@ -66,6 +69,7 @@
 .HeaderLogoutButton {
   border: 1px solid rgb(157, 121, 255);
   background-color: transparent;
+  cursor: pointer;
   color: white;
   font-size: 1em;
   margin-left: 15px;
@@ -73,20 +77,13 @@
   border-radius: 15px;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 765px) {
   .Header {
     align-items: baseline;
   }
-
-  .Header h1 {
-    font-size: 22pt;
-  }
 }
 
-@media screen and (max-width: 490px) {
-  .HeaderTaglineWide {
-    display: none;
-  }
+@media screen and (min-width: 765px) {
 
   .Header h1 {
     font-size: 22pt;

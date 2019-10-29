@@ -17,7 +17,7 @@ input[type="text"] {
 
 .AddCollectionForm {
   background: rgb(37, 37, 37);
-  width: 40%;
+  width: 97%;
   border-radius: 6px;
   margin: 20px auto;
   padding: 30px;
@@ -38,8 +38,8 @@ input[type="text"] {
   border: none;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (min-width: 765px) {
   .AddCollectionForm {
-    width: 97%;
+    width: 40%;
   }
 }

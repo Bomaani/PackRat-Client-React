@@ -37,7 +37,6 @@ export default class ItemListPage extends React.Component {
   };
 
   onDeleteItem = item_id => {
-    console.log(item_id)
     this.setState({
       items: this.state.items.filter(
         item => item.id !== item_id
@@ -73,7 +72,6 @@ export default class ItemListPage extends React.Component {
     e.preventDefault();
 
     const collection_id = this.props.match.params.collection_id;
-    //console.log(this.props);
 
     fetch(`${config.API_ENDPOINT}/collections/${collection_id}`, {
       method: "DELETE",
@@ -111,7 +109,6 @@ export default class ItemListPage extends React.Component {
     ).filter(item => {
       return item.title.toLowerCase().indexOf(this.state.filtered) !== -1;
     });
-    //console.log(this.props)
     return (
       <section className="ItemListMain">
         <div className="SearchContainer">

@@ -17,7 +17,6 @@ export default class Item extends React.Component {
     e.preventDefault();
 
     const itemId = this.props.id;
-    //console.log(this.props);
 
     fetch(`${config.API_ENDPOINT}/items/${itemId}`, {
       method: "DELETE",
@@ -31,7 +30,6 @@ export default class Item extends React.Component {
         return;
       })
       .then(() => {
-        console.log(this.props)
         this.props.onDeleteItem(itemId);
       })
       .catch(error => {

@@ -44,7 +44,6 @@ export default class CollectionList extends React.Component {
   };
 
   render() {
-    //console.log(this.state.collections)
     return (
       <div className="CollectionListNav">
         <h2>My Collections</h2>
